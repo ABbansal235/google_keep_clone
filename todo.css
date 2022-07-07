@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-all{
+    width: 100%;
+    height: 100vh;
+   
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(140, 0, 255) ;
+    
+}
+.heading{
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+    margin: 1% 2%;
+    position: absolute;
+}
+.text{
+    margin:3% 35% ;
+}
+.text input{
+    width: 70%;
+    height: 5vh;
+    text-align: center;
+    border: 2px solid rgb(140 , 0  , 255);
+    font-size: 16px;
+    background-color: gainsboro;
+}
+.text button{
+    padding: 5px 15%;
+    margin-left: 16%;
+    color: white;
+    background-color: rgb(140 , 0  , 255);
+    border: 2px solid rgb(140 , 0  , 255);
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.tasks{
+    width: 100%;
+    margin-top: 20px;
+}
+.tasklist{
+width: 90%;
+height: 6vh;
+color: white;
+background-color: rgb(140, 0, 255);
+border-radius: 9px;
+text-align: center;
+
+
+
+}
+#edit{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: -4.9%;
+    position: absolute;
+    border: 2px solid rgb(140, 0, 255);
+}
+
+
+#del{
+    padding: 5px 10px;
+    color:white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: -4.9%;
+    border: 2px solid rgb(140, 0, 255);
+}
+
+
+
